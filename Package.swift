@@ -4,6 +4,9 @@ import PackageDescription
 
 let package = Package(
     name: "Sync",
+    platforms: [
+        .iOS(.v16)
+    ],
     products: [
         .library(
             name: "Sync",
